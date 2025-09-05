@@ -5,8 +5,6 @@ Simple sorting algorithm that repeatedly steps through the list, compares adjace
 elements and swaps them if they are in the wrong order.
 '''
 
-import sys 
-
 def bubbleSort(arr):
     length = len(arr)
     for i in range(0, length - 1):
@@ -25,6 +23,10 @@ def main():
     the sorted array shows the result after applying bubble sort'''
     
     print(f'''
+    
+    Bubble Sort
+    ----------
+    
     Unsorted array: {arr}
        |
        |___ Sorted array: {sorted_arr}''')

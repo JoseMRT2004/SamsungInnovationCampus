@@ -54,7 +54,12 @@ Upon successful completion of the program, participants receive:
 
 All course materials and exercises are provided through the campus platform, ensuring a comprehensive learning experience.
 
-<details>
-<summary>Note</summary>
-This repository contains my work and projects developed during the Samsung Innovation Campus program.
+ <details>
+   <summary>Note</summary>
+      <h3>This repository contains my work and projects developed during the Samsung Innovation Campus program.</h3>
+      <p>"The information within these sites, which are my property and the property of Samsung, is itself cited multiple times in the articles"<p>
+        <ul>
+           <li><a href="https://www.notion.so/Python-IA-262e58af1807800ea99bfd36a970489e">Data structure and algorithm's</a></li>
+           <li><a href="https://www.notion.so/Python-3d3f55f171d94256aff5f8cdea3a4509?source=copy_link">Fundamental Knowledge about Python</a></li>
+        </ul>
 </details>

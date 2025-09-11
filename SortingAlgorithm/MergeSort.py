@@ -6,7 +6,7 @@ https://www.notion.so/Python-IA-262e58af1807800ea99bfd36a970489e
 '''
 
     
-def merge_sort(arr): # Base case: if array has 1 or fewer elements, it's already sorteds
+def MergeSort(arr): # Base case: if array has 1 or fewer elements, it's already sorteds
     if len(arr) <= 1:
         return arr
     
@@ -16,8 +16,8 @@ def merge_sort(arr): # Base case: if array has 1 or fewer elements, it's already
     right = arr[mid:]
     
     # Recursive call to sort each half
-    left = merge_sort(left)
-    right = merge_sort(right)
+    left = MergeSort(left)
+    right = MergeSort(right)
     
     
     return merge(left, right) # Combine sorted halves
@@ -43,7 +43,7 @@ def merge(left, right):
 def main():
     arr = [92,64,34,25,54,87,23,73,291,98,12,22,11,90]
     
-    sorted_arr = merge_sort(arr)
+    sorted_arr = MergeSort(arr)
     
     print(f'''
           
@@ -56,4 +56,7 @@ def main():
 
 if __name__ == "__main__":
         main()
+        
+        
+        
     

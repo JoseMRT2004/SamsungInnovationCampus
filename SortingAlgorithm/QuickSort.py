@@ -1,11 +1,11 @@
 '''
-QuickSort
+Quicksort
 ---------
 Divide-and-conquer algorithm that selects a pivot element and partitions the array around it.
 The array is recursively sorted by applying the same process to the sub-arrays.
 '''
 
-def quicksort(arr):
+def Quicksort(arr):
     # Base case: if array has 1 or 0 elements, it's already sorted
     if len(arr) <= 1:
         return arr
@@ -28,12 +28,12 @@ def quicksort(arr):
             right.append(x)
     
     # Recursively sort left and right sub-arrays and combine the results
-    return quicksort(left) + middle + quicksort(right)
+    return Quicksort(left) + middle + Quicksort(right)
 
 def main():
     arr = [92,64,34,25,54,87,23,73,291,98,12, 22, 11, 90]
     
-    sorted_arr = quicksort(arr)
+    sorted_arr = Quicksort(arr)
     
     print(f''' 
           

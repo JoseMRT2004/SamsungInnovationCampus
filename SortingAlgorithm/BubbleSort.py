@@ -5,7 +5,7 @@ Simple sorting algorithm that repeatedly steps through the list, compares adjace
 elements and swaps them if they are in the wrong order.
 '''
 
-def bubbleSort(arr):
+def BubbleSort(arr):
     length = len(arr)
     for i in range(0, length - 1):
         for i in range(0, length - i - 1):
@@ -17,7 +17,7 @@ def bubbleSort(arr):
                 
 def main():
     arr = [92,64,34,25,54,87,23,73,291,98,12, 22, 11, 90]
-    sorted_arr = bubbleSort(arr)
+    sorted_arr = BubbleSort(arr)
     
     '''The unsorted array represents the original input array and
     the sorted array shows the result after applying bubble sort'''

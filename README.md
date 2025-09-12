@@ -1,6 +1,5 @@
 # Samsung Innovation Campus
 
-## Index
 - [About the Program](#about-the-program)
 - [Learning Objectives](#learning-objectives)
 - [Course Structure](#course-structure)
